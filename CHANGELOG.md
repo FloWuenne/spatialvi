@@ -18,6 +18,8 @@ compatible with further downstream analyses and/or exploration in _e.g._
 
 ### `Added`
 
+- Added support for `.tar` files in addition to `.tar.gz` files as input for fastq_dir and spaceranger_dir parameters
+
 - Fix 'dir' handling for cloud file systems [[#122](https://github.com/nf-core/spatialvi/pull/122)]
 - Follow the new Nextflow strict syntax for local (sub-) workflows [[#115](https://github.com/nf-core/spatialvi/pull/115)]
 - Add ability to use unknown slides for Space Ranger-based analyses [[#99](https://github.com/nf-core/spatialvi/issues/99) and [#109](https://github.com/nf-core/spatialvi/pull/109)]
